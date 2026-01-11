@@ -1,2 +1,2 @@
 # ZEREXIA
-As a Full Stack Stock Trading Platform.1
+As a Full Stack Stock Trading Platform.
