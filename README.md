@@ -1,2 +1,2 @@
 # ZEREXIA
-MERN Stack Project.
+Frontend Project.
