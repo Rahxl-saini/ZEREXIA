@@ -1,2 +1,2 @@
 # ZEREXIA
-<!-- Frontend Project. -->
+Frontend Project.
