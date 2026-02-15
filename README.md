@@ -1,64 +1,65 @@
-# ZEREXIA
-🚀 ZEREXIA Clone – Full Stack Trading Platform (MERN + AWS)
+🚀 ZEREXIA – Full Stack Trading Platform (MERN + AWS)
 
-A production-ready, scalable stock trading platform inspired by Zerexia, built using the MERN stack and deployed on AWS with RESTful architecture.
+ZEREXIA is a full-stack stock trading platform built using the MERN stack and deployed on AWS. The idea behind this project was to understand how modern fintech platforms work — from secure authentication systems to portfolio management and cloud deployment.
 
-This project demonstrates real-world fintech application development including authentication, portfolio management, order execution simulation, and secure cloud deployment.
+The focus was on writing clean, scalable code while following proper REST API architecture and production-ready deployment practices.
 
-🔥 Key Highlights
+🔥 What This Project Covers
 
-✅ Complete MERN Stack Implementation (MongoDB, Express, React, Node.js)
+Complete MERN stack implementation (MongoDB, Express, React, Node)
 
-✅ RESTful API Architecture with proper route structuring
+Well-structured REST APIs with proper separation of concerns
 
-✅ JWT-based Authentication & Authorization
+JWT-based authentication and authorization
 
-✅ Real-time Stock Data Integration (API-based)
+Password hashing using bcrypt
 
-✅ Portfolio & Order Management System
+Stock buy/sell simulation logic
 
-✅ Secure AWS Deployment (EC2 / S3 / Nginx)
+Portfolio and order history management
 
-✅ Scalable Backend with MVC Architecture
+Real-time stock data integration via external APIs
 
-✅ Environment-based Config & Production Build Optimization
+AWS deployment (EC2, S3) with Nginx reverse proxy
 
-🧠 Features
-👤 User Module
+Production setup using PM2 and environment-based configuration
 
-Secure Signup/Login
+🧠 Core Features
+👤 User System
 
-Encrypted Passwords (bcrypt)
+Secure user registration & login
 
-JWT Authentication
+Encrypted password storage
 
-User Profile Management
+Token-based authentication
 
-📈 Trading Module
+User profile management
 
-Buy / Sell Stock Simulation
+📈 Trading System
 
-Order History
+Buy and sell stocks (simulated trading)
 
-Portfolio Tracking
+Order history tracking
 
-Real-time Price Fetching
+Portfolio value calculation
 
-Profit/Loss Calculation
+Profit & Loss logic
+
+Real-time price updates
 
 📊 Dashboard
 
-Live market overview
+Market overview
 
-Holdings & Positions
+Holdings & open positions
 
-Interactive Charts
+Interactive data visualization
 
-Responsive UI
+Fully responsive UI
 
 🛠 Tech Stack
 
-Frontend:
+Frontend
 
 React.js
 
@@ -68,7 +69,7 @@ Axios
 
 Chart.js / Recharts
 
-Backend:
+Backend
 
 Node.js
 
@@ -76,37 +77,38 @@ Express.js
 
 MongoDB (Mongoose)
 
-REST APIs
+RESTful APIs
 
-Deployment:
+Deployment
 
-AWS EC2
+AWS EC2 (Backend hosting)
 
-AWS S3
+AWS S3 (Frontend hosting)
 
-Nginx
+Nginx (Reverse proxy)
 
-PM2
+PM2 (Process manager)
 
-📌 Architecture
+🏗 Architecture Overview
 
-Client → REST API → Controller → Service Layer → MongoDB
-Deployed with reverse proxy & production build optimization.
+Client → REST API → Controllers → Services → MongoDB
 
-📈 Why This Project Matters
+The backend follows MVC architecture to maintain scalability and clean code organization.
 
-This project simulates real-world fintech infrastructure including:
+🎯 Why I Built ZEREXIA
 
-Authentication security best practices
+This project helped me gain practical experience in:
 
-Scalable RESTful backend design
+Designing secure authentication flows
 
-Cloud deployment & DevOps fundamentals
+Writing scalable backend services
 
-Clean UI/UX with performance optimization
+Managing complex frontend state
 
-It reflects strong understanding of full stack architecture and production-grade deployment.
+Implementing real-world trading business logic
+
+Deploying and managing full-stack applications on AWS
 
 🚀 Live Demo
 
-(Add your AWS link here)
+(Add your deployed AWS link here)
