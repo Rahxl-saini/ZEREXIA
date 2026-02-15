@@ -1,4 +1,4 @@
-🚀 ZEREXIA – Full Stack Trading Platform (MERN + AWS)
+##🚀 ZEREXIA – Full Stack Trading Platform (MERN + AWS)
 
 ZEREXIA is a full-stack stock trading platform built using the MERN stack and deployed on AWS. The idea behind this project was to understand how modern fintech platforms work — from secure authentication systems to portfolio management and cloud deployment.
 
