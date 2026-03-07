@@ -1,64 +1,65 @@
-# 🚀ZEREXIA – Full Stack Trading Platform (MERN)
+# 🚀 ZEREXIA – Full Stack Trading Platform (MERN)
 
-ZEREXIA is a full-stack stock trading platform built using the MERN stack. The idea behind this project was to understand how modern fintech platforms work — from secure authentication systems to portfolio management and cloud deployment.
+ZEREXIA is a full-stack stock trading application developed using the MERN stack. The main goal of this project was to explore how real-world fintech platforms operate — from implementing secure authentication systems to managing portfolios and deploying applications in a production environment.
 
-The focus was on writing clean, scalable code while following proper REST API architecture and production-ready deployment practices.
+During development, the focus was placed on writing clean, maintainable, and scalable code, while following proper RESTful API design patterns and modern deployment practices.
 
-# 🔥 What This Project Covers
+# 🔥 Project Highlights
 
-Complete MERN stack implementation (MongoDB, Express, React, Node)
+End-to-end MERN stack implementation (MongoDB, Express.js, React.js, Node.js)
 
-Well-structured REST APIs with proper separation of concerns
+Structured REST API architecture with clear separation of logic
 
-JWT-based authentication and authorization
+Secure authentication using JWT tokens
 
-Password hashing using bcrypt
+Password encryption with bcrypt
 
-Stock buy/sell simulation logic
+Simulated stock buy/sell trading system
 
-Portfolio and order history management
+Portfolio tracking and order history management
 
-Real-time stock data integration via external APIs
+Integration of real-time stock data APIs
 
-AWS deployment (EC2, S3) with Nginx reverse proxy
+Deployment on AWS infrastructure
 
-Production setup using PM2 and environment-based configuration
+Reverse proxy setup using Nginx
 
-# 🧠 Core Features
-# 👤 User System
+Production process management with PM2
 
-Secure user registration & login
+# 🧠 Main Features
+# 👤 User Management
 
-Encrypted password storage
+Secure user signup and login system
 
-Token-based authentication
+Passwords stored using encrypted hashing
 
-User profile management
+JWT-based authentication & authorization
 
-# 📈 Trading System
+User profile and account management
 
-Buy and sell stocks (simulated trading)
+# 📈 Trading Engine
 
-Order history tracking
+Simulated stock buying and selling
 
-Portfolio value calculation
+Complete order history tracking
 
-Profit & Loss logic
+Portfolio valuation system
 
-Real-time price updates
+Profit & loss calculation
 
-# 📊 Dashboard
+Real-time stock price updates
 
-Market overview
+# 📊 Interactive Dashboard
 
-Holdings & open positions
+Market overview section
 
-Interactive data visualization
+User holdings and open positions
 
-Fully responsive UI
+Data visualization using charts
 
-# 🛠 Tech Stack
+Fully responsive user interface
 
+# 🛠 Technology Stack
 # Frontend
 
 React.js
@@ -77,30 +78,27 @@ Express.js
 
 MongoDB (Mongoose)
 
-RESTful APIs
+REST API architecture
 
-Deployment
+Deployment & Infrastructure
 
-Nginx (Reverse proxy)
+Nginx – Reverse Proxy
 
-PM2 (Process manager)
+PM2 – Node.js Process Manager
 
-# 🏗 Architecture Overview
+# 🏗 System Architecture
+Client → REST API → Controllers → Services → Database (MongoDB)
 
-Client → REST API → Controllers → Services → MongoDB
+The backend follows an MVC-style architecture, helping maintain a clean structure, improved scalability, and better code organization.
 
-The backend follows MVC architecture to maintain scalability and clean code organization.
+# 🎯 Purpose of Building ZEREXIA
 
-# 🎯 Why I Built ZEREXIA
+Developing this project allowed me to gain hands-on experience in:
 
-This project helped me gain practical experience in:
+Building secure authentication systems
 
-Designing secure authentication flows
-
-Writing scalable backend services
+Designing scalable backend services
 
 Managing complex frontend state
 
-Implementing real-world trading business logic
-
-
+Implementing real-world trading workflows
