@@ -1,10 +1,10 @@
-🚀ZEREXIA – Full Stack Trading Platform (MERN)
+# 🚀ZEREXIA – Full Stack Trading Platform (MERN)
 
 ZEREXIA is a full-stack stock trading platform built using the MERN stack. The idea behind this project was to understand how modern fintech platforms work — from secure authentication systems to portfolio management and cloud deployment.
 
 The focus was on writing clean, scalable code while following proper REST API architecture and production-ready deployment practices.
 
-🔥 What This Project Covers
+# 🔥 What This Project Covers
 
 Complete MERN stack implementation (MongoDB, Express, React, Node)
 
@@ -24,8 +24,8 @@ AWS deployment (EC2, S3) with Nginx reverse proxy
 
 Production setup using PM2 and environment-based configuration
 
-🧠 Core Features
-👤 User System
+# 🧠 Core Features
+# 👤 User System
 
 Secure user registration & login
 
@@ -35,7 +35,7 @@ Token-based authentication
 
 User profile management
 
-📈 Trading System
+# 📈 Trading System
 
 Buy and sell stocks (simulated trading)
 
@@ -47,7 +47,7 @@ Profit & Loss logic
 
 Real-time price updates
 
-📊 Dashboard
+# 📊 Dashboard
 
 Market overview
 
@@ -57,9 +57,9 @@ Interactive data visualization
 
 Fully responsive UI
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
-Frontend
+# Frontend
 
 React.js
 
@@ -69,7 +69,7 @@ Axios
 
 Chart.js / Recharts
 
-Backend
+# Backend
 
 Node.js
 
@@ -81,21 +81,17 @@ RESTful APIs
 
 Deployment
 
-AWS EC2 (Backend hosting)
-
-AWS S3 (Frontend hosting)
-
 Nginx (Reverse proxy)
 
 PM2 (Process manager)
 
-🏗 Architecture Overview
+# 🏗 Architecture Overview
 
 Client → REST API → Controllers → Services → MongoDB
 
 The backend follows MVC architecture to maintain scalability and clean code organization.
 
-🎯 Why I Built ZEREXIA
+# 🎯 Why I Built ZEREXIA
 
 This project helped me gain practical experience in:
 
@@ -107,8 +103,4 @@ Managing complex frontend state
 
 Implementing real-world trading business logic
 
-Deploying and managing full-stack applications on AWS
 
-🚀 Live Demo
-
-(Add your deployed AWS link here)
